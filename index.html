@@ -1,0 +1,21 @@
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Simuladores DFSA</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+</head>
+<body>
+    <nav id="menu">
+        Etiquetas iniciais: <input id="etiquetas" type="text">
+        Slots:<input id="slots" type="text">
+        <button onclick="getInput()">Submit</button>
+    </nav>
+    <nav id="resultados">
+        resultado: <output id="result" type="number"></output>
+    </nav>
+    <canvas id="lineColision"></canvas>
+    <script src="simuladores.js"></script>
+</body>
+</html>
