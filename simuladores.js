@@ -63,5 +63,6 @@ function calculations(){
     for(let i = 0; i < num_Slots.length ; i++){
         console.log(num_Slots[i]);
     }
+    getChart();
     //document.getElementById('result').innerHTML = slots;
 }

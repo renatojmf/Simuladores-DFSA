@@ -13,7 +13,8 @@ button{
     
 }
 
-canvas{
-    padding: 0;
-    border: solid;
-}
+/*canvas#lineColision{
+    height: 450px; 
+    width: 550;
+    
+}*/
